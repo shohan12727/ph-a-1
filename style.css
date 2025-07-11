@@ -151,54 +151,76 @@ nav button:hover {
   padding: 70px 150px;
 }
 
-.focus-section button{
-   border: none;
+.focus-section button {
+  border: none;
   background-color: #4E47FF;
   color: white;
   border-radius: 10px;
-  padding: 12px 36px;   
+  padding: 12px 36px;
 }
-.focus-section button:hover{ 
-   background-color: #3b35cc;
+
+.focus-section button:hover {
+  background-color: #3b35cc;
   box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
 }
 
-.input_section{
-   margin: 116px 150px;
-   display: flex;
-   justify-content: space-between;
-   gap: 115px;
+.input_section {
+  margin: 116px 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 115px;
 }
-.input_section h1{
-   font-size: 70px;
-   font-weight: bold;
+
+.input_section h1 {
+  font-size: 70px;
+  font-weight: bold;
 
 }
+
 .input_section input {
   padding: 20px 270px 20px 32px;
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.121);
 }
+
 .input_section textarea {
-    border: none;
+  border: none;
   border-radius: 10px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.121);
   padding: 20px 50px 8px 32px;
 }
+
 .input_section button {
   font-size: 16px;
   border-radius: 10px;
   color: white;
   border: none;
   background: linear-gradient(90deg, #9403FD, #00ADFE);
- padding: 10px 186px;
- text-align: center;
- margin-top: 15px;
+  padding: 10px 186px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .input_section button:hover {
-  background: linear-gradient(90deg, #7B02D1, #0098E0); 
-  filter: brightness(1.05); 
- 
+  background: linear-gradient(90deg, #7B02D1, #0098E0);
+  filter: brightness(1.05);
+
+}
+
+
+.footer {
+  background-color: white;
+  padding: 100px 350px;
+}
+.footer li {
+  list-style: none;
+  color: #8987A1;
+}
+.footer a {
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer p {
+  margin-bottom: 10px;
 }
